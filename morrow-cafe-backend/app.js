@@ -2,10 +2,10 @@ const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
 const claimRoute = require("./routes/claimRoute");
-const app = express();
 
 dotenv.config();
 
+const app = express();
 app.use(
   cors({
     origin: process.env.FRONTEND_URL,
