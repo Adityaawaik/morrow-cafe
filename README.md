@@ -20,6 +20,29 @@ The experience is designed for visitors arriving from a QR code with very little
 1. Clone the Repository
    
    ```
-   git clone YOUR_REPOSITORY_URL
+   git clone https://github.com/Adityaawaik/morrow-cafe.git
    cd morrow-cafe
+   ```
+
+2. Install Frontend Dependencies
+   
+   ```
+   cd morrow-cafe-frontend
+   npm install
+   ```
+   Create a frontend .env file:
+   VITE_API_URL=your backend url
+
+   ```
+   npm run dev
+   ```
+3. Install Backend Dependencies
+   ```
+   cd morrow-cafe-backend
+   npm install
+   ```
+   Create a backend .env file:
+   FRONTEND_URL=your frontend url
+   ```
+   npm start
    ```
